@@ -118,12 +118,12 @@
         compatible = "zmk,keymap";
 
         base_layer {
-            display-name = "Alpha";
+            display-name = "Colemak-DH";
             bindings = <
-  &kp J        &kp G        &kp M        &kp P        &kp V              &ht AMPS SEMICOLON  &ht UNDERSCORE PERIOD  &ht ASTERISK SLASH  &ht QUESTION DOUBLE_QUOTES  &ht EXCLAMATION SQT
-  &hm LGUI R   &hm LALT S   &hm LSHFT N  &hm LCTRL D  &kp B              &ht MINUS COMMA     &hm RCTRL A            &hm RSHFT E         &hm LALT I                  &hm RGUI H
-  &mt LC(Z) X  &mt LC(X) F  &mt LC(C) L  &mt LC(V) C  &kp W              &ht PIPE COLON      &kp U                  &kp O               &kp Y                       &kp K
-                            &lt 7 TAB    &lt SYM T    &lt NUMFN ENTER    &lt NAV SPACE       &lt UTIL ESC
+  &kp Q        &kp W       &kp F       &kp P         &kp B      &kp J      &kp L        &kp U       &kp Y       &kp SEMI
+  &hm LCTRL A  &hm LALT R  &hm LCMD S  &hm LSHIFT T  &kp G      &kp M      &hm RSHFT N  &hm RCMD E  &hm RALT I  &hm RCTRL O
+  &kp Z        &kp X       &kp C       &kp D         &kp V      &kp K      &kp H        &kp COMMA   &kp DOT     &kp FSLH
+                           &kp ESC     &kp SPACE     &kp TAB    &kp ENTER  &kp BSPC
             >;
         };
 
